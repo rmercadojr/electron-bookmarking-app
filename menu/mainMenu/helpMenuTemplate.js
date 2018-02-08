@@ -4,7 +4,8 @@ exports.helpMenuTemplate = {
   label: "Help",
   submenu: [
     {
-      label: 'Learn More',
+      label: 'About Electron',
+      accelerator: 'CmdOrCtrl + Shift + H',
       click: () => {
         shell.openExternal('http://electronjs.org');
       }

@@ -1,9 +1,9 @@
-const {fileMenuTemplate} = require('./fileMenuTemplate');
-const {editMenuTemplate} = require('./editMenuTemplate');
-const {viewMenuTemplate} = require('./viewMenuTemplate');
-const {windowMenuTemplate} = require('./windowMenuTemplate');
-const {helpMenuTemplate} = require('./helpMenuTemplate');
-const {devMenuTemplate} = require('./devMenuTemplate');
+const {fileMenuTemplate} = require('./mainMenu/fileMenuTemplate');
+const {editMenuTemplate} = require('./mainMenu/editMenuTemplate');
+const {viewMenuTemplate} = require('./mainMenu/viewMenuTemplate');
+const {windowMenuTemplate} = require('./mainMenu/windowMenuTemplate');
+const {helpMenuTemplate} = require('./mainMenu/helpMenuTemplate');
+const {devMenuTemplate} = require('./mainMenu/devMenuTemplate');
 
 exports.mainMenuTemplate = [
   fileMenuTemplate,
